@@ -1,0 +1,13 @@
+body {
+    background: #cecece
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #FFFFFF; /* 5px p/ o tamanho, SOLID é o tipo e #FFFFFF é a cor. Border tem estas 3 funções: largura, tipo de borda e cor. Também é conhecido como shorthand */
+    border-radius: 50%; /* Comporta até 4 valores, um p/ cada borda. O primeiro e segundo são para os de cima e o terceiro e quarto para os de baixo. */
+     }
+
+li {
+    color: #080077
+}

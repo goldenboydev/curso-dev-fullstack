@@ -1,0 +1,28 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif; /* Para a fonte ter efeito na página deve-se copiar a tag de css no googlefonts da fonte desejada. */
+    color: #343434;
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%; 
+    margin: 30px;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif; /* Tag usada para alterar apenas textos do h1. No googlefonts pode ser encontrada a tag abaixo da opção @link @import. */
+    font-size: 40px; /* Tag para alterar a fonte usada no h1. */
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #727272;
+    font-weight: 100;
+    letter-spacing: -1px;
+}

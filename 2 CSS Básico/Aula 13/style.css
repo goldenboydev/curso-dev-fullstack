@@ -1,0 +1,52 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: #343434;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cabeçalho {
+    text-align: center; /* Centralização do cabeçalho. */
+    margin-bottom: 40px; /* Margem entre o final do cabeçalho e o texto abaixo (abaixo da div cabeçalho). */
+
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%; 
+    margin: 30px 30px 0 30px; /* O valor de margem da esquerda definirá também o mesmo que o da direita, ou seja, caso opte por deixar os mesmos valores então não precisará repetir o valor para definir o direito. Também não é preciso colocar o px no final do valor. Usei para tirar a margem debaixo da foto para o título com meu nome ficar mais perto da foto. */
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1 {
+    margin-top: 10px; /* Usei para levantar a margem e o título com meu nome ficar mais perto da foto. */
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #727272;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.social-icons { /* Classe usada para definir o tamanho da logo na página. */
+    width: 20px; 
+}
+
+.social-links { /* Classe usada para tirar o underline que aparece depois das imagens na página. */
+    text-decoration: none; /* Valor usado para retirar: none = nenhum. */
+}
+
+.linkedin { /* Classe usada para adicionar uma margem para os lados e afastar as outras logos que estavam perto desta. */
+    margin: 0 15px 0 15px; /* Valor de margem usado para os lados. */
+}

@@ -1,0 +1,15 @@
+body {
+    background: #dfdfdf
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%; 
+    margin: 30px;
+    box-shadow: 0px 0px 10px #959595; /* Sombra da caixa. 1º- Distância da sombra horizontal, 2º- Distância da sombra vertical, 3º- Nível de desfoque da sombra e 4º a cor. */
+}
+
+li {
+    color: #00ff8ce4
+}

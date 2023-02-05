@@ -1,0 +1,18 @@
+body {
+    background: #cecece
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%; 
+    margin-top: 30px; /* Define a margem de espaço de algo, neste caso define o topo da foto. */
+    margin-bottom: 30px; /* Define a parte de baixo. */
+    margin-left: 30px; /* Define o parte esquerda. */
+    margin-right: 30px; /* Define o parte direita */
+    margin: 30px 30px 30px 30px; /* Desta forma simplificada define-se todos os lados. Cima, direita, baixo e esquerda respectivamente. */
+}
+
+li {
+    color: #080077
+}

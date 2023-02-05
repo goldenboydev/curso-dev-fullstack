@@ -1,0 +1,16 @@
+body {
+    background-image: url(background.jpg); /* seleciona a imagem para a página */
+    background-repeat: no-repeat; /* não repete a imagem na página */
+    /* background-position: 50% 50%; posiciona a imagem, valor esquerdo define o quanto irá para esquerda e valor direito define o topo */
+    background-position: center right; /* dessa forma a imagem ficará no centro e totalmente à direita da página */
+    background-attachment: fixed; /* fixa a imagem da página e somente o conteúdo da mesma rolará no scroll do usuário */
+    background-size: cover; /* cobre toda a página com a imagem */
+}
+
+.foto {
+    width: 200px;
+}
+
+li {
+    color: #080077
+}
